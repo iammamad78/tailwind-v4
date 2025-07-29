@@ -8,6 +8,88 @@
     <link rel="stylesheet" href="./font.css" />
   </head>
   <body>
-    <p>تست</p>
+    <div class="h-13 md:h-[70px] bg-primary flex items-center justify-center">
+      <p class="text-sm md:text-base text-white font-semibold">
+        تا ۷۰٪ تخفیف برای لوازم جانبی اورجینال آیفون
+      </p>
+    </div>
+
+    <header
+      class="max-lg:shadow-[0_0_20px_-5px_#0000001A] lg:border-b border-[#E6E6E6]"
+    >
+      <div
+        class="container m-auto flex flex-col gap-6 px-6 py-6 sm:px-2 lg:py-8"
+      >
+        <!-- navbar -->
+        <div class="flex items-center justify-between">
+          <!-- hamburger menu -->
+          <span class="md:hidden">
+            <img src="./assets/svg/hamburger.svg" alt="menu" />
+          </span>
+          <!-- logo -->
+          <div
+            class="flex items-center gap-1 md:gap-5 text-primary font-medium"
+          >
+            <img
+              src="./assets/svg/app-store.svg"
+              class="w-8 md:w-13"
+              alt="logo"
+            />
+            <p class="w-5 md:w-fit md:text-[30px] leading-4">اپل استور</p>
+          </div>
+          <!-- search desktop -->
+          <div class="hidden lg:flex gap-2">
+            <button
+              class="flex items-center justify-center gap-3 w-35 h-11 rounded-full bg-primary"
+            >
+              <div class="flex flex-col gap-1">
+                <span class="block w-4 h-0.5 bg-white"></span>
+                <span class="block w-4 h-0.5 bg-white"></span>
+                <span class="block w-4 h-0.5 bg-white"></span>
+              </div>
+              <p class="text-white">محصولات</p>
+            </button>
+            <div
+              class="w-90 flex justify-baseline py-2.5 px-4 rounded-full bg-[#FBFBFB]"
+            >
+              <input
+                type="text"
+                placeholder="جستجو کنید ..."
+                class="w-full bg-[#FBFBFB] focus:outline-0 placeholder:font-medium placeholder:text-[#303030]"
+              />
+              <img src="./assets/svg/search-normal.svg" alt="" />
+            </div>
+          </div>
+          <!-- icon -->
+          <div class="flex gap-3">
+            <div class="relative">
+              <img src="./assets/svg/shopping-cart.svg" class="md:w-6 md:h-6" />
+              <span
+                class="block w-3 h-3 text-[10px] text-center bg-primary text-white rounded-full absolute -top-1 -right-1"
+                >0</span
+              >
+            </div>
+            <div class="relative">
+              <img src="./assets/svg/heart.svg" class="md:w-6 md:h-6" />
+              <span
+                class="block w-3 h-3 text-[10px] text-center bg-primary text-white rounded-full absolute -top-1 -right-1"
+                >0</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- search -->
+        <div
+          class="w-full flex lg:hidden items-center justify-between bg-[#F1F1F1] px-4 py-2.5 rounded-full"
+        >
+          <input
+            type="text"
+            placeholder="جستجو"
+            class="placeholder:text-[#282828B2] placeholder:font-light focus:outline-0"
+          />
+          <img src="./assets/svg/search-normal.svg" alt="" />
+        </div>
+      </div>
+    </header>
   </body>
 </html>
