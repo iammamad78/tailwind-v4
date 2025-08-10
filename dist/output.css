@@ -585,6 +585,9 @@
   .h-20 {
     height: calc(var(--spacing) * 20);
   }
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
   .h-37 {
     height: calc(var(--spacing) * 37);
   }
@@ -1249,6 +1252,9 @@
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
+  .rounded-\[7px\] {
+    border-radius: 7px;
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
   }
@@ -1414,14 +1420,29 @@
   .bg-\[\#FF8B14\] {
     background-color: #FF8B14;
   }
+  .bg-\[\#FF51\] {
+    background-color: #FF51;
+  }
   .bg-\[\#FF510C0D\] {
     background-color: #FF510C0D;
+  }
+  .bg-\[\#FF510C21\] {
+    background-color: #FF510C21;
+  }
+  .bg-\[\#FF510\] {
+    background-color: #FF510;
   }
   .bg-\[\#FFDA79\] {
     background-color: #FFDA79;
   }
   .bg-\[\#FFF1EB\] {
     background-color: #FFF1EB;
+  }
+  .bg-\[\#FF\] {
+    background-color: #FF;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
@@ -1662,6 +1683,9 @@
   .p-9 {
     padding: calc(var(--spacing) * 9);
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -1676,6 +1700,9 @@
   }
   .px-14 {
     padding-inline: calc(var(--spacing) * 14);
+  }
+  .py-1 {
+    padding-block: calc(var(--spacing) * 1);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -2363,6 +2390,11 @@
       font-weight: var(--font-weight-medium);
     }
   }
+  .placeholder\:text-\[\#222222\] {
+    &::placeholder {
+      color: #222222;
+    }
+  }
   .placeholder\:text-\[\#282828B2\] {
     &::placeholder {
       color: #282828B2;
@@ -2371,6 +2403,16 @@
   .placeholder\:text-\[\#303030\] {
     &::placeholder {
       color: #303030;
+    }
+  }
+  .placeholder\:text-\[\#2222224A\] {
+    &::placeholder {
+      color: #2222224A;
+    }
+  }
+  .placeholder\:text-\[\#\] {
+    &::placeholder {
+      color: #;
     }
   }
   .focus\:outline-0 {
@@ -3005,6 +3047,11 @@
   .lg\:bg-lightGray {
     @media (width >= 64rem) {
       background-color: var(--color-lightGray);
+    }
+  }
+  .lg\:px-6 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 6);
     }
   }
   .lg\:px-12 {
